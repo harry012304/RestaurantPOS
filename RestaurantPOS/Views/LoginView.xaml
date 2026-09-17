@@ -1,0 +1,108 @@
+﻿<UserControl x:Class="RestaurantPOS.Views.LoginView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#F3F4F6">
+
+    <Grid>
+
+        <Border Width="420"
+                Padding="40"
+                Background="White"
+                CornerRadius="16"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="20"
+                                  ShadowDepth="3"
+                                  Opacity="0.15"/>
+            </Border.Effect>
+
+            <StackPanel>
+
+                <!-- Logo / Title -->
+                <TextBlock Text="Restaurant POS"
+                           FontSize="32"
+                           FontWeight="Bold"
+                           Foreground="#111827"
+                           HorizontalAlignment="Center"/>
+
+                <TextBlock Text="Restaurant Management System"
+                           FontSize="14"
+                           Foreground="#6B7280"
+                           HorizontalAlignment="Center"
+                           Margin="0,8,0,35"/>
+
+                <!-- Username -->
+                <TextBlock Text="Username"
+                           FontSize="14"
+                           FontWeight="SemiBold"
+                           Foreground="#374151"
+                           Margin="0,0,0,8"/>
+
+                <Border BorderBrush="#D1D5DB"
+                        BorderThickness="1"
+                        CornerRadius="8">
+
+                    <TextBox x:Name="UsernameTextBox"
+                         Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                         Height="45"
+                         FontSize="15"
+                         Padding="12"
+                         BorderThickness="0"
+                         Background="Transparent"/>
+                </Border>
+
+                <!-- Password -->
+                <TextBlock Text="Password"
+                           FontSize="14"
+                           FontWeight="SemiBold"
+                           Foreground="#374151"
+                           Margin="0,20,0,8"/>
+
+                <Border BorderBrush="#D1D5DB"
+                        BorderThickness="1"
+                        CornerRadius="8">
+
+                    <PasswordBox x:Name="PasswordInput"
+                                 PasswordChanged="PasswordInput_PasswordChanged"
+                                 Height="45"
+                                 FontSize="15"
+                                 Padding="12"
+                                 BorderThickness="0"
+                                 Background="Transparent"/>
+                </Border>
+
+                <!-- Login Button -->
+                <Button x:Name="LoginButton"
+                        Content="Login"
+                        Click="LoginButton_Click"
+                        Height="48"
+                        Margin="0,30,0,0"
+                        FontSize="16"
+                        FontWeight="SemiBold"
+                        Foreground="White"
+                        Background="#2563EB"
+                        BorderThickness="0"
+                        Cursor="Hand"/>
+
+                <TextBlock Text="{Binding Message}"
+                           Foreground="#DC2626"
+                           FontSize="13"
+                           TextAlignment="Center"
+                           Margin="0,12,0,0"
+                           TextWrapping="Wrap"/>
+
+                <TextBlock Text="Restaurant POS System"
+                           Foreground="#9CA3AF"
+                           FontSize="12"
+                           HorizontalAlignment="Center"
+                           Margin="0,25,0,0"/>
+
+            </StackPanel>
+
+        </Border>
+
+    </Grid>
+
+</UserControl>

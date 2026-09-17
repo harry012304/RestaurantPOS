@@ -1,0 +1,33 @@
+﻿# Visual Studio
+.vs/
+bin/
+obj/
+
+# User-specific files
+.DS_Store
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Test results
+TestResults/
+*.trx
+
+# NuGet
+*.nupkg
+packages/
+
+# SQLite local database
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+*.log

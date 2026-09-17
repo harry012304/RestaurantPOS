@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="RestaurantPOS.Tests/RestaurantPOS.Tests.csproj" Id="93bbf374-3668-42f5-b705-b62f6b104ab9" />
+  <Project Path="RestaurantPOS/RestaurantPOS.csproj" />
+</Solution>
