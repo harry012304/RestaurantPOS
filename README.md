@@ -264,7 +264,7 @@ Sales History / Dashboard
 Clone the repository:
 
 ```bash
-git clone <YOUR-REPOSITORY-URL>
+git clone https://github.com/harry012304/RestaurantPOS.git
 ```
 
 Open:
