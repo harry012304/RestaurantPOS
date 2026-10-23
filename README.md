@@ -261,10 +261,11 @@ Sales History / Dashboard
 
 ### Run the Application
 
-Clone the repository:
+Clone the repository and enter the project folder:
 
 ```bash
 git clone https://github.com/harry012304/RestaurantPOS.git
+cd RestaurantPOS
 ```
 
 Open:
