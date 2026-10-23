@@ -2,20 +2,7 @@
 
 A desktop **Restaurant Point of Sale and Inventory Management System** built using **C#, .NET 10, WPF, Entity Framework Core, and SQLite**.
 
-RestaurantPOS is designed to simulate the workflow of a real restaurant POS system, including order processing, dine-in table management, inventory tracking, payment handling, sales reporting, receipt generation, and role-based access control.
-
-## Features
-
-### Authentication & Authorization
-
-* Secure login using BCrypt password hashing
-* Admin and Cashier accounts
-* Role-based access control
-* Admin-only access to Menu and Inventory management
-
-### Point of Sale
-
-* Dine-In and Takeaway orders
+RestaurantPOS is designed to simulate the workflow of a real restaurant POS system, including order processing, dine-in table management, inventory tracking, payment handling, sales reporting, receipt  Dine-In and Takeaway orders
 * Product category filtering
 * Add products to cart
 * Increase and decrease item quantity
