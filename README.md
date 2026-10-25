@@ -1,12 +1,4 @@
 
-* Stock availability validation
-* Prevent ordering more items than available stock
-
-### Table Management
-
-* Restaurant table management
-* Table capacity tracking
-* Table statuses:
 
   * Available
   * Occupied
