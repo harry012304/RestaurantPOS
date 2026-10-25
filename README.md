@@ -1,15 +1,4 @@
-# RestaurantPOS
 
-A Windows desktop point-of-sale application built with C#, WPF, Entity Framework Core, and SQLite.
-
-## Features
-
-### Cart and Order Calculations
-
-* Increase and decrease item quantity
-* Automatic subtotal calculation
-* 6% tax calculation
-* Automatic total calculation
 * Stock availability validation
 * Prevent ordering more items than available stock
 
