@@ -375,7 +375,7 @@ The project focuses on implementing realistic restaurant workflows rather than o
 
 ## Author
 
-**Muhammad Syamil**
+**Harry Anderson**
 
 Computer Science Student
 Software Development Portfolio Project
